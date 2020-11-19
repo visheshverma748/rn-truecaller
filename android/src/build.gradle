@@ -37,16 +37,13 @@ repositories {
         name 'Google'
     }
     maven {
-        url "https://artifactory.paytm.in/libs-release-local"
-    }
-    maven {
         url "https://repo.spring.io/libs-release/"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-
+    implementation "com.truecaller.android.sdk:truecaller-sdk:2.4.0"
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
     implementation group: 'com.android.volley', name: 'volley', version: '1.1.1'
 

@@ -11,3 +11,4 @@ android/.gradle/checksums/checksums.lock
 android/.gradle/buildOutputCleanup/outputFiles.bin
 android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
 android/.gradle/6.1.1/fileHashes/fileHashes.lock
+node_modules

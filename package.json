@@ -1,13 +1,21 @@
 {
   "name": "rn-truecaller",
   "version": "1.0.0",
-  "description": "A truecaller wrapper over the native SDKs for easy integration",
+  "description": "A truecaller react native module over the native SDKs for easy integration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native", "truecaller", "rn-truecaller"
+    "react-native",
+    "truecaller",
+    "rn-truecaller",
+    "android",
+    "react",
+    "native",
+    "sdk",
+    "integration",
+    "trueclient"
   ],
   "author": "Vishesh Verma",
   "license": "ISC",
@@ -17,10 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/visheshverma748/rn-truecaller"
+    "url": "git+https://github.com/visheshverma748/rn-truecaller"
   },
   "bugs": {
-    "url": "https://github.com/visheshverma748/rn-truecaller"
+    "url": "https://github.com/visheshverma748/rn-truecaller/issues"
   },
-  "homepage": "https://github.com"
+  "homepage": "https://github.com/visheshverma748/rn-truecaller",
+  "dependencies": {
+    "react-native": "^0.63.3"
+  }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.truecaller">
+          package="com.truecaller.module">
 
-    <application></application>
+    <application>
+        <meta-data android:name="com.truecaller.android.sdk.PartnerKey" android:value="@string/YourPartnerKey"/>
+    </application>
 
 </manifest>
